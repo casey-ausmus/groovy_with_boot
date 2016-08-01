@@ -1,8 +1,8 @@
 [
   {
     "id": "1",
-    "name": "General Lee",
-    "email": "generally@famous.com",
+    "name": "Cookie Monster",
+    "email": "cmonster@famous.com",
     "phone": {
       "mobile": "469-555-1111",
       "home": "469-555-1001"
@@ -14,8 +14,8 @@
   },
   {
     "id": "2",
-    "name": "Capitan Archer",
-    "email": "cap_archer@famous.com",
+    "name": "Rick Sanchez",
+    "email": "rsanchez@famous.com",
     "phone": {
       "mobile": "469-555-2222",
       "home": ""
@@ -27,8 +27,8 @@
   },
   {
     "id": "3",
-    "name": "Mary Poppingpills",
-    "email": "pin_stripe_mary@famous.com",
+    "name": "Morty Smith",
+    "email": "msmith@famous.com",
     "phone": {
       "mobile": "972-555-3333",
       "home": ""
