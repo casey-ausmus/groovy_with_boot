@@ -27,6 +27,7 @@ targetCompatibility = 1.8
 dependencies {
     compile 'org.codehaus.groovy:groovy-all:2.4.5'
     compile 'org.springframework.boot:spring-boot-starter-web'
+    compile 'org.apache.commons:commons-lang3:3.0'
     testCompile 'junit:junit'
 }
 
