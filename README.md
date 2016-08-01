@@ -19,7 +19,12 @@ gradle bootrun
 After the service has started up, you can test it out locally by hitting the following URL:
 
 ```
-http://localhost:8080/api/example/ping
+http://localhost:8080/api/example/users
 ```
 
-If everything is successfully configured and running, you'll see a short JSON response when you hit that URL.
+If everything is successfully configured and running, you'll see a JSON response containing user data when you hit that URL.
+The above URL also supports an additional parameter for filtering users by name.  For example:
+
+```
+http://localhost:8080/api/example/users?name=mary
+```
