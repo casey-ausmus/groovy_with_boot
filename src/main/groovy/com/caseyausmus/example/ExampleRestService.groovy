@@ -21,7 +21,6 @@ class ExampleRestService {
         def userJSON = jsonSlurper.parse(loadJSON('users.json'))
 
         // Note: the containsIgnoreCase method was added via metaprogramming in ExampleWebApp.groovy
-        userJSON.findResult { it.name.containsIgnoreCase(name) }
         return name ? userJSON.findAll { it.name.containsIgnoreCase(name) } : userJSON
     }
 
