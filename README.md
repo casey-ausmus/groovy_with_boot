@@ -1,7 +1,7 @@
-#REST Endpoint sample application w/ Spring Boot
+# REST Endpoint sample application w/ Spring Boot
 This is a sample application using Spring Boot and REST to serve up an endpoint.
 
-##Setup
+## Setup
 You'll need Java 1.8, Groovy, and Gradle installed locally to run this application.  You can install Groovy & Gradle using
 Homebrew with the following commands:
 
